@@ -1,0 +1,18 @@
+{
+  "name": "tech-evangelismus-digitales-netzwerk",
+  "version": "1.0.0",
+  "description": "Ein Netzwerk für Tech-Evangelisten",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5"
+  },
+  "author": "Dein Name",
+  "license": "MIT"
+}
