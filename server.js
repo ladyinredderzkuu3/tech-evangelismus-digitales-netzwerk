@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.send('Welcome to the Tech Evangelism Network! Explore, learn, and connect.');
+  res.send('Welcome to the Tech Evangelism Network! Here, you can explore new technologies, learn valuable skills, and connect with like-minded individuals.');
 });
 
 app.listen(PORT, () => {
